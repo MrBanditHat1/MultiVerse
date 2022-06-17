@@ -1,6 +1,7 @@
 import styles from "../styles/index.module.css";
 import Image from "next/image";
-import rocket from ""../public/rocket.jpeg";
+import rocket from "../public/rocket.jpeg"
+
 
 
 
@@ -29,9 +30,9 @@ function Home(){
                     <p className = {styles.paragraph}>
                         Thank you very much for taking the time to view my site! My name is Christian and I am a
                         self-taught developer that has a passion for STEM, and enjoy combat sports. If there is anything that I have learned
-                        about myself from such sports, it's that no matter how tired I am, or how many times I get knocked down; I
+                        about myself from such sports, it is that no matter how tired I am, or how many times I get knocked down; I
                         always get up and am never discouraged. I have the same philosophy when it comes to problem solving, and learning anything in general.
-                        No matter how difficult something is, I will always push through it and resolve the issue. 
+                        No matter how difficult something is, I will always push through it and resolve the issue.
                     </p>
                     
                 </div>
