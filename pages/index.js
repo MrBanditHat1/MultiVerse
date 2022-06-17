@@ -1,6 +1,6 @@
-import styles from '../styles/index.module.css';
-import Image from 'next/image';
-import rocket from '../public/rocket.jpeg';
+import styles from "../styles/index.module.css";
+import Image from "next/image";
+import rocket from ""../public/rocket.jpeg";
 
 
 
@@ -10,21 +10,19 @@ function Home(){
         <div className = {styles.container}>
 
             <header className= {styles.header}>
-                
+       
                 <nav>
                     <ul className = {styles.list}>
-                        <li><a href = '#'>Projects</a></li>
-                        <li><a href = '#'>Work experience</a></li>
-                        <li><a href = '#'>contact</a></li>
+                        <li><a href = "#">Projects</a></li>
+                        <li><a href = "#">Work experience</a></li>
+                        <li><a href = "#">contact</a></li>
 
                     </ul>
                 </nav>
 
-
             </header>
 
             <main className = {styles.main}>
-
                 <div className = {styles.content_left}>
                     <h1 className = {styles.firstTitle}>Christian Chavez</h1>
                     <h2 className = {styles.secondTitle}>Software engineer</h2>
@@ -39,9 +37,8 @@ function Home(){
                 </div>
 
                 <div className = {styles.content_right}>
-                   <img src = '/rocket.jpeg' className ={styles.rocket} />
+                   <img src = "/rocket.jpeg" className ={styles.rocket} />
                 </div>
-
             </main>
 
         </div>
